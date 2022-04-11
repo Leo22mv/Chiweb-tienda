@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Realizar pedido</title>
+    <script src="js/pedido.js"></script>
+    <style>
+        body {
+            background: lightgrey
+        }
+        #pedido {
+            background: grey;
+        }
+        #cont {
+            width: 80%;
+            margin: 0px auto;
+            
+        }
+        #imag {
+            border: 3px solid black;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="cont">
+        <section>
+            <img src="img/cala.jpg" width="100%" height="100%" id="imag">
+        </section>
+        <section><h1><i>Realizar pedido</i></h1></section>
+
+    <section>
+        <label for="Cantidad1">Jamon y Queso:</label>
+        <input type="number" id="Cantidad1"> <br>
+        <br>
+        <label>Calabaza y Muzza:</label>
+        <input type="number" id="Cantidad2"> <br>
+        <br>
+        <label>Ricota con Nuez:</label>
+        <input type="number" id="Cantidad3"> <br>
+        <br>
+        <label>Tomate y Albahaca:</label>
+        <input type="number" id="Cantidad4"> <br>
+        <br>
+        <label>Roquefort:</label>
+        <input type="number" id="Cantidad5"> <br>
+        <br>
+        <label>Espinaca:</label>
+        <input type="number" id="Cantidad6"> <br>
+        <br>
+        <label>Pollo y Jamon:</label>
+        <input type="number" id="Cantidad7"> <br>
+        <br>
+        <label>Humita:</label>
+        <input type="number" id="Cantidad8"> <br>
+    </section>
+    <br>
+    <section>
+        <button type="button" onclick="hacerPedido()" id="pedido"><a href="Main.html">REALIZAR PEDIDO</a></button>
+    </section>  
+    <br>
+    <section>
+        <a href="Main.html">Volver al inicio</a>
+    </section>
+    </div>
+</body>
+</html>

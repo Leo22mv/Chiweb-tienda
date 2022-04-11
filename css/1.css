@@ -1,0 +1,18 @@
+/* etiqueta {}, #ID{}, .clase{}*/
+
+body {
+    background: lightgrey
+}
+#carta {
+    background: grey;
+}
+#pedido {
+    background: grey;
+}
+#cont {
+    width: 80%;
+    margin: 0px auto;
+}
+header {
+    border: 3px solid black;
+}
