@@ -1,4 +1,4 @@
 function hacerPedido() {
-    alert("Pedido realizado con exito =D")
+    alert("Pedido realizado con exito")
 }
 

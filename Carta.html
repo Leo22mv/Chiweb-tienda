@@ -2,34 +2,27 @@
 <html>
 <head>
     <title>Carta</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-        body {
-            background: lightgrey
-        }
-        #pedido {
-            background: grey;
-        }
-        #cont {
-            width: 80%;
-            margin: 0px auto;
-            
-        }
-        #imag {
-            border: 3px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/1.css">
 </head>
 <body>
     <div id="cont">
+        <header>
+            <section>
+                <img src="img/cala.jpg" width="50%" height="50%" id="imag">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="Main.html">Inicio</a></li>
+                    <li><a href="Carta.html">Carta</a></li>
+                    <li><a href="Pedido.html">Realizar pedido</a></li>
+                </ul>
+            </nav>
+            <section id="asd">
+                <h1><i>Carta</i></h1>
+            </section>
+        </header>
         <section>
-            <img src="img/cala.jpg" width="100%" height="100%" id="imag">
-        </section>
-        <section><h1><i>Carta</i></h1></section>
-        <section>
-            <table style="width: 280px;">
+            <table>
                 <tr>
                     <th>
                         Sorrentinos
@@ -121,16 +114,9 @@
             </table>
         </section>
         <br>
-        <section>
-            <button type="button" id="pedido">
-                <a href="Pedido.html">REALIZAR PEDIDO</a>
-            </button>
-        </section>
-        <br>
-        
-        <section>
-            <a href="Main.html">Volver al incio</a>
-        </section>
+        <footer>
+
+        </footer>
     </div>
 </body>
 </html>

@@ -3,30 +3,25 @@
 <head>
     <title>Realizar pedido</title>
     <script src="js/pedido.js"></script>
-    <style>
-        body {
-            background: lightgrey
-        }
-        #pedido {
-            background: grey;
-        }
-        #cont {
-            width: 80%;
-            margin: 0px auto;
-            
-        }
-        #imag {
-            border: 3px solid black;
-        }
-    </style>
-    
+    <link rel="stylesheet" href="css/1.css">    
 </head>
 <body>
-    <div id="cont">
-        <section>
-            <img src="img/cala.jpg" width="100%" height="100%" id="imag">
-        </section>
-        <section><h1><i>Realizar pedido</i></h1></section>
+  <div id="cont">
+        <header>
+            <section>
+                <img src="img/cala.jpg" width="50%" height="50%" id="imag">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="Main.html">Inicio</a></li>
+                    <li><a href="Carta.html">Carta</a></li>
+                    <li><a href="Pedido.html">Realizar pedido</a></li>
+                </ul>
+            </nav>
+            <section id="asd">
+                <h1><i>Realizar pedido</i></h1>
+            </section>
+        </header>
 
     <section>
         <label for="Cantidad1">Jamon y Queso:</label>
@@ -56,11 +51,7 @@
     <br>
     <section>
         <button type="button" onclick="hacerPedido()" id="pedido"><a href="Main.html">REALIZAR PEDIDO</a></button>
-    </section>  
-    <br>
-    <section>
-        <a href="Main.html">Volver al inicio</a>
-    </section>
-    </div>
+    </section> 
+  </div>
 </body>
 </html>

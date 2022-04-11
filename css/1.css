@@ -1,8 +1,5 @@
-/* etiqueta {}, #ID{}, .clase{}*/
+/* etiqueta {}, #ID{}, .clase{} */
 
-body {
-    background: lightgrey
-}
 #carta {
     background: grey;
 }
@@ -13,6 +10,29 @@ body {
     width: 80%;
     margin: 0px auto;
 }
-header {
+html {
+    text-align: center;
+}
+body {
+    background: rgb(80, 0, 0);
+}
+#pedido {
+    background: grey;
+}
+#imag {
     border: 3px solid black;
+}
+#asd {
+    background: rgb(40, 0, 0);
+    color: grey;
+}
+nav {
+    background: rgb(30, 0, 0);
+}
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    background: lightblue;
+    width: 280px;
 }
