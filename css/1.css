@@ -17,22 +17,99 @@ body {
     background: rgb(80, 0, 0);
 }
 #pedido {
-    background: grey;
+    background: black;
+    text-decoration: none;
 }
 #imag {
     border: 3px solid black;
 }
-#asd {
+#art {
     background: rgb(40, 0, 0);
     color: grey;
+    /* margin: 0% 30% 0% 30%; */
+    text-shadow: 5px 5px 2px black;
+    font-family: Indie Flower;
 }
 nav {
     background: rgb(30, 0, 0);
+    /* margin: 0% 40% 0% 40%; */
+    font-family: Indie Flower;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 4px solid rgb(40, 0, 0);
+    color: white;
+    /* border-collapse: collapse; */
 }
 table {
-    background: lightblue;
+    background: rgb(135, 0, 0);
     width: 280px;
+    margin: 0% 0% 0% 40%;
+}
+th {
+    background-color: rgb(80, 0, 0);
+}
+#ini {
+    color: white;
+    text-decoration: none;
+}
+#car {
+    color: white;
+    text-decoration: none;
+}
+#ped {
+    color: white;
+    text-decoration: none;
+}
+#formped {
+    color: white;
+    background: rgb(40, 0, 0);
+    /* margin: 0% 30% 0% 30%; */
+}
+#botped {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(40, 0, 0);
+    color: white;
+    /* margin: 0% 42% 0% 42%; */
+}
+#QYA {
+    color: white;
+    text-decoration: none;
+}
+/*aside {
+    color: white;
+    margin: 0% 0% 0% 70%;
+    border: 1px solid black;
+    background: rgb(40, 0, 0);
+}*/
+#SN {
+    color: white;
+    text-decoration: none;
+}
+#Contacto {
+    color: white;
+    text-decoration: none;
+}
+#Cobertura {
+    color: white;
+    text-decoration: none;
+}
+#Historial {
+    color: white;
+    text-decoration: none;
+}
+#direc {
+    color:white;
+    text-decoration: none;
+}
+#formdir {
+    background: rgb(40, 0, 0);
+    /* margin: 0% 30% 0% 30%; */
+}
+ul {
+    list-style-type: none;
+    padding-left: 0%;
 }
